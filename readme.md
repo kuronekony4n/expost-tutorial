@@ -1,5 +1,5 @@
-# OpenData? What is this?
-OpenData is a platform designed to help you easily create and manage lists of links, files, or text in a Directory styles. 
+# Expost? What is this?
+Expost is a platform designed to help you easily create and manage lists of links, files, or text in a Directory styles. 
 By using JSON or YAML, you have the flexibility to customize your list exactly how you want it. You can choose from a wide variety of objects options, add images or other multimedia, link to external resources, and even embedding an entire websites.
 
 # Create New Library
@@ -224,7 +224,7 @@ Key | Value | Required | Description
 name | `string` | required | Link name.
 type | link | optional | To declare that this is a link. (Any type that not in the list will be consider to be a link, so this is optional).
 info | `string` | optional | Information about the text.
-icon | `string` | optional | Icons for the link. Default: `file`.  [Icons list](https://opendata.pages.dev/icons). Tip: add `2x` before the icon's name to enlarge the icon slightly, Example: `bus` became `2xbus`. 
+icon | `string` | optional | Icons for the link. Default: `file`.  [Icons list](https://expost.pages.dev/icons). Tip: add `2x` before the icon's name to enlarge the icon slightly, Example: `bus` became `2xbus`. 
 download | `boolean` | optional | Make user download a file on button click. Default: `false`.
 data | `url` | optional | URL which the link will redirect to.
 custom_class | `string` | optional | Add custom CSS Classes.
@@ -372,7 +372,7 @@ Make a blank space. Use this for separating a non-wide button, or just for spaci
 Key | Value | Required | Description
 :------: | :------: | :------: | :------
 type | space | required | To declare that this is a space.
-value | `number` | required | Determine the spaces (in pixel). Example: for making a 20px space between blocks, set the value to 20.
+value | `number` | required | Determine the spaces (in pixel). Example: for making a 20px space between blocks, set the value to 20. You can also put negative number.
 custom_class | `string` | optional | Add custom CSS Classes.
 custom_style | `string` | optional | Add custom CSS Styles.
 hidden | `boolean` | optional | Hide the block.
@@ -549,7 +549,7 @@ custom_style | `string` | optional | Add custom CSS Styles.
 hidden | `boolean` | optional | Hide the block.
 
 ## Custom CSS
-You can edit the default CSS: https://opendata.pages.dev/style.css
+You can edit the default CSS: https://expost.pages.dev/style.css
 And then upload it online (ex. github gist) and put the URL in [`css`](#L-1-4) key inside [Metadata Block](#L-1-4).
 I recommend you use this [browser extension](https://chrome.google.com/webstore/detail/user-css/okpjlejfhacmgjkmknjhadmkdbcldfcb) when editing the css so you get live result.
 
@@ -559,9 +559,11 @@ Currently we supported:
 
 Website | RAW Data | Result
 :------: | :------: | :------:
-direct url | https://website.com/library.yaml | https://opendata.pages.dev/?url=https://website.com/library.yaml
-[snippet.host](https://snippet.host) | https://snippet.host/bsgxcc | https://opendata.pages.dev/?s=bsgxcc
-[rentry.co](https://rentry.co) | https://rentry.co/custom_url999 | http://opendata.pages.dev/?r=custom_url999
+direct url | https://website.com/library.yaml | https://expost.pages.dev/?url=https://website.com/library.yaml
+[snippet.host](https://snippet.host) | https://snippet.host/bsgxcc | https://expost.pages.dev/?s=bsgxcc
+[rentry.co](https://rentry.co) | https://rentry.co/custom_url999 | http://expost.pages.dev/?r=custom_url999
+
+I suggest using Snippet or Rentry when creating or editing, as these websites update instantly unlike Github, which may take 1-2 minutes to reflect changes.
 
 ### Redirection
 Using [rentry.co](https://rentry.co), you can turn your long direct URL using preserved and short URL.
@@ -570,14 +572,15 @@ Make a new Rentry and then put this JSON inside:
 ```json
 {
   "type": "redirect",
-  "data": "https://kuronekony4n.github.io/opendata-tutorial/example/redirect-destination.json"
+  "data": "https://kuronekony4n.github.io/expost-tutorial/example/redirect-destination.json"
 }
 ```
 Key `data`'s value is your full long direct URL.
 
 Example RAW Data | Example Result
 :------: | :------:
-https://rentry.co/redirect-example | https://opendata.pages.dev/?u=redirect-example
+https://rentry.co/redirect-example | https://expost.pages.dev/?u=redirect-example
 
 ### Using Github
-You can easily store all your JSON or YAML files, as well as any other kind of asset, in a Github repository. However, if you're using Github repository, it's important to keep in mind that simply updating your files won't automatically update the information on OpenData websites. To ensure that your updates are reflected, create a Github Pages based on your repository and use the links from there. This way, you can avoid having different URLs each time you make changes, and your updates will show up automatically.
+You can easily store all your JSON or YAML files, as well as any other kind of asset, in a Github repository. However, if you're using Github repository, it's important to keep in mind that simply updating your files won't automatically update the information on expost websites. To ensure that your updates are reflected, create a Github Pages based on your repository and use the links from there. This way, you can avoid having different URLs each time you make changes, and your updates will show up automatically.
+
