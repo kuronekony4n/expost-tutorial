@@ -1,10 +1,16 @@
 # Expost? What is this?
-expost is a platform designed to help you easily create and manage lists of links, files, or text in a Directory styles. 
+Expost is a platform designed to help you easily create and manage lists of links, files, or text in a Directory styles. 
 By using JSON or YAML, you have the flexibility to customize your list exactly how you want it. You can choose from a wide variety of objects options, add images or other multimedia, link to external resources, and even embedding an entire websites.
+
+## Shortcut
+Blocks: [Metadata](#metadata-block), [Directory](#directory-block), [Title](#title-block), [Text](#text-block), [Link](#link-block), [Admonition](#admonition-block), [Button](#button-block), [Divider](#divider-block), [Space](#space-block), [Image](#image-block), [Audio](#audio-block), [Video](#video-block), [Iframe](#iframe-block)
+Other: [Custom CSS](#custom-css), [Hosting](#hosting), [Redirection](#redirection), [Using Github](#using-github)
 
 # Create New Library
 ## Pre-made Examples
-[From this JSON](https://github.com/kuronekony4n/expost-tutorial/blob/main/homepage/homepage.json) or [This YAML](https://github.com/kuronekony4n/expost-tutorial/blob/main/homepage/homepage.yaml), become [This Website!](https://expost.pages.dev/)
+[From this JSON](https://github.com/kuronekony4n/expost-tutorial/blob/main/homepage/homepage.json) or [this YAML](https://github.com/kuronekony4n/expost-tutorial/blob/main/homepage/homepage.yaml), become [This Website!](https://expost.pages.dev/)
+
+You can start by editing that JSON/YAML as a template, or Make from scratch!
 
 ## Blocks
 Blocks is essentialy an item, or objects that you can add. 
