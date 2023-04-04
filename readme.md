@@ -1,3 +1,5 @@
+![Showcase](https://github.com/kuronekony4n/expost-tutorial/raw/main/showcase.jpg)
+
 # Expost? What is this?
 Expost is a platform designed to help you easily create and manage lists of links, files, or text in a Directory styles. 
 By using JSON or YAML, you have the flexibility to customize your list exactly how you want it. You can choose from a wide variety of objects options, add images or other multimedia, link to external resources, and even embedding an entire websites.
