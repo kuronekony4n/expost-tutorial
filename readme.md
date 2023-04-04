@@ -1,9 +1,10 @@
 # Expost? What is this?
-Expost is a platform designed to help you easily create and manage lists of links, files, or text in a Directory styles. 
+expost is a platform designed to help you easily create and manage lists of links, files, or text in a Directory styles. 
 By using JSON or YAML, you have the flexibility to customize your list exactly how you want it. You can choose from a wide variety of objects options, add images or other multimedia, link to external resources, and even embedding an entire websites.
 
 # Create New Library
 ## Pre-made Examples
+[From this JSON](https://github.com/kuronekony4n/expost-tutorial/blob/main/homepage/homepage.json) or [This YAML](https://github.com/kuronekony4n/expost-tutorial/blob/main/homepage/homepage.yaml), become [This Website!](https://expost.pages.dev/)
 
 ## Blocks
 Blocks is essentialy an item, or objects that you can add. 
@@ -583,4 +584,3 @@ https://rentry.co/redirect-example | https://expost.pages.dev/?u=redirect-exampl
 
 ### Using Github
 You can easily store all your JSON or YAML files, as well as any other kind of asset, in a Github repository. However, if you're using Github repository, it's important to keep in mind that simply updating your files won't automatically update the information on expost websites. To ensure that your updates are reflected, create a Github Pages based on your repository and use the links from there. This way, you can avoid having different URLs each time you make changes, and your updates will show up automatically.
-
