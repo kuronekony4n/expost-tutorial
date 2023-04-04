@@ -9,10 +9,10 @@
     "info": "",
     "type": "title",
     "align": "center"
-  },
-  {
-    "name": "Example empty directory",
-    "type": "dir",
-    "data": []
+  },{
+    "name": "You can continue creating your awesome library!",
+    "info": "",
+    "type": "text",
+    "align": "center"
   }
 ]
