@@ -1,0 +1,332 @@
+[
+    {
+        "img": "media/logo.png",
+        "type": "metadata",
+        "css": "",
+        "expand": false,
+        "nsfw": false,
+        "author": "willydev",
+        "author_link": "/willy",
+        "title": "Share anything easily!",
+        "subtitle": "Using simple JSON or YAML",
+        "info": "I hope you can make an awesome library!"
+    },
+    {
+        "name": "What is this? (JSON)",
+        "info": "",
+        "type": "title",
+        "align": "left"
+    },
+    {
+        "name": "text name",
+        "type": "text",
+        "align": "left",
+        "data": "Expost is a platform designed to help you easily create and manage lists of links, files, or text in a Directory styles."
+    },
+    {
+        "name": "You can make directories!",
+        "type": "dir",
+        "info": "Basicaly a folder like in your devices!",
+        "data": [
+            {
+                "name": "Another folder?",
+                "type": "dir",
+                "info": "You can put directories inside a directories!",
+                "data": [
+                    {
+                        "name": "Link to other website",
+                        "info": "By the way I'm a tooltips you can add to explain more about the object!",
+                        "icon": "rocket-fly",
+                        "data": "https://www.google.com/"
+                    },
+                    {
+                        "name": "<- You can choose any icons!",
+                        "info": "Our icons library has 400+ more icons to choose from!",
+                        "icon": "pig",
+                        "data": "/icons"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Customize everything!",
+        "type": "dir",
+        "info": "Expand me!",
+        "data": [
+            {
+                "name": "What is this?",
+                "type": "text",
+                "data": "You can make custom theme to use custom icons, fonts, colors, layout, and more using CSS."
+            }
+        ]
+    },
+    {
+        "name": "What can I add?",
+        "type": "dir",
+        "info": "",
+        "data": [
+            {
+                "name": "Text Name",
+                "type": "text",
+                "data": "Add directories, titles, dividers, admonitions, texts, buttons, links, iframes, images, audios, and videos all customizeable! "
+            },
+            {
+                "name": "YOU THERE!",
+                "type": "admonition",
+                "align": "left",
+                "style": "warning",
+                "info": "",
+                "data": "Grab attention of your visitors using Admonition Blocks!"
+            },
+            {
+                "type": "space",
+                "value": 5
+            },
+            {
+                "name": "Light Button",
+                "type": "button",
+                "style": "light",
+                "data": ""
+            },
+            {
+                "name": "Dark Button",
+                "type": "button",
+                "style": "dark",
+                "data": ""
+            },
+            {
+                "name": "Blue Button",
+                "type": "button",
+                "style": "primary",
+                "data": ""
+            },
+            {
+                "name": "Red Button",
+                "type": "button",
+                "style": "danger",
+                "data": ""
+            },
+            {
+                "name": "Custom Button",
+                "type": "button",
+                "style": "warning",
+                "data": ""
+            },
+            {
+                "name": "And a lot more!",
+                "type": "button",
+                "style": "success",
+                "data": ""
+            },
+            {
+                "name": "Images 1",
+                "type": "image",
+                "info": "WOW",
+                "data": "media/img1.png"
+            }
+        ]
+    },
+    {
+        "type": "divider"
+    },
+    {
+        "name": "Add GIF Animation!",
+        "info": "",
+        "type": "title",
+        "align": "left"
+    },
+    {
+        "name": "Text Name",
+        "type": "text",
+        "data": "You can make the images clickable!"
+    },
+    {
+        "name": "Images 2",
+        "type": "image",
+        "info": "Click me!",
+        "url": "https://www.overlyanimated.com/2016/08/06/the-subtle-beauty-of-steven-universes-title-cards/",
+        "data": "media/animation.gif"
+    },
+    {
+        "type": "divider"
+    },
+    {
+        "name": "Embed Music or Videos!",
+        "info": "",
+        "type": "title"
+    },
+    {
+        "name": "Text Name",
+        "type": "text",
+        "data": "Share your music or videos to the world."
+    },
+    {
+        "name": "Listen to the Music",
+        "type": "dir",
+        "info": "",
+        "data": [
+            {
+                "name": "Blue - Michael Gieson",
+                "info": "I don't know where I find this music but there you go.",
+                "type": "audio",
+                "audio_type": "audio/mp3",
+                "download": true,
+                "data": "media/song1.mp3"
+            }
+        ]
+    },
+    {
+        "name": "Watch the Video",
+        "type": "dir",
+        "expand": true,
+        "info": "",
+        "data": [
+            {
+                "name": "The Big Bug Bunny",
+                "info": "I still can't find The Small Insignificant Bunny Video so this one will do.",
+                "type": "video",
+                "video_type": "video/mp4",
+                "download": true,
+                "data": "media/horizontal.mp4"
+            }
+        ]
+    },
+    {
+        "type": "divider"
+    },
+    {
+        "name": "Embed Anything!",
+        "info": "",
+        "type": "title"
+    },
+    {
+        "name": "Text Name",
+        "type": "text",
+        "data": "Use Iframe to embed external player, or even an entire website!"
+    },
+    {
+        "name": "Iframe Test!",
+        "info": "This is very epic video, you should watch it!",
+        "type": "iframe",
+        "width": "100%",
+        "height": "auto",
+        "scrolling": true,
+        "allowfullscreen": true,
+        "custom_class": "ar16-9",
+        "data": "https://www.youtube.com/embed/1m-KtU88K9Y"
+    },
+    {
+        "type": "divider"
+    },
+    {
+        "name": "Have any question?",
+        "info": "",
+        "type": "title",
+        "align": "left"
+    },
+    {
+        "name": "How do I make this?",
+        "type": "dir",
+        "data": [
+            {
+                "name": "Text Name",
+                "type": "text",
+                "data": "Our platform uses a simple JSON or YAML format to give you complete control over the appearance and functionality of your library."
+            }
+        ]
+    },
+    {
+        "name": "Pricing list?",
+        "type": "dir",
+        "data": [
+            {
+                "name": "Text Name",
+                "type": "text",
+                "data": "I will cut you a deal, how about FREE Forever? Sounds good?"
+            }
+        ]
+    },
+    {
+        "name": "Where do I register?",
+        "type": "dir",
+        "info": "",
+        "data": [
+            {
+                "name": "Text Name",
+                "type": "text",
+                "data": "You dont! We do not store any users data or information in our database. In fact we do not have a database!"
+            }
+        ]
+    },
+    {
+        "name": "Can you give me Example?",
+        "type": "dir",
+        "info": "",
+        "data": [
+            {
+                "name": "This Homepage!",
+                "info": "You see, this page is created using the same system!",
+                "icon": "code"
+            },
+            {
+                "name": "Check out the code",
+                "type": "button",
+                "style": "success",
+                "wide": false,
+                "data": ""
+            },
+            {
+                "type": "space",
+                "value": -5
+            },
+            {
+                "name": "willydev's library",
+                "info": "It's the creator of this website. Not ready yet.",
+                "icon": "user",
+                "data": "/willy"
+            },
+            {
+                "name": "Text Name",
+                "type": "text",
+                "data": "If you make a good library I probably will put it in here!"
+            }
+        ]
+    },
+    {
+        "name": "Give me Tutorial NOW!",
+        "type": "dir",
+        "info": "",
+        "data": [
+            {
+                "name": "Full Documentation",
+                "icon": "pen",
+                "info": "Read carefully",
+                "data": "https://github.com/kuronekony4n/expost-tutorial"
+            },
+            {
+                "name": "How to Set up Expost page?",
+                "icon": "video",
+                "info": "Not ready yet",
+                "data": ""
+            },
+            {
+                "name": "How to use Github to Store Files for Expost?",
+                "icon": "video",
+                "info": "Not ready yet",
+                "data": ""
+            }
+        ]
+    },
+    {
+        "type": "divider"
+    },
+    {
+        "name": "Start Creating!",
+        "type": "button",
+        "info": "Open documentation",
+        "style": "primary",
+        "wide": true,
+        "data": "https://github.com/kuronekony4n/expost-tutorial"
+    }
+]
