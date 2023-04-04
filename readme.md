@@ -4,6 +4,7 @@ By using JSON or YAML, you have the flexibility to customize your list exactly h
 
 ## Shortcut
 Blocks: [Metadata](#metadata-block), [Directory](#directory-block), [Title](#title-block), [Text](#text-block), [Link](#link-block), [Admonition](#admonition-block), [Button](#button-block), [Divider](#divider-block), [Space](#space-block), [Image](#image-block), [Audio](#audio-block), [Video](#video-block), [Iframe](#iframe-block)
+
 Other: [Custom CSS](#custom-css), [Hosting](#hosting), [Redirection](#redirection), [Using Github](#using-github)
 
 # Create New Library
