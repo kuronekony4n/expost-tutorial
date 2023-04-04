@@ -1,0 +1,18 @@
+[
+  {
+    "type": "metadata",
+    "expand": true,
+    "title": "Redirect Example!"
+  },
+  {
+    "name": "Redirect is Success!",
+    "info": "",
+    "type": "title",
+    "align": "center"
+  },
+  {
+    "name": "Example directory!",
+    "type": "dir",
+    "data": []
+  }
+]
