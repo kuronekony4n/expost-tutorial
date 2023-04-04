@@ -6,12 +6,10 @@
   },
   {
     "name": "Redirect is Success!",
-    "info": "",
     "type": "title",
     "align": "center"
   },{
-    "name": "You can continue creating your awesome library!",
-    "info": "",
+    "data": "You can continue creating your awesome library!",
     "type": "text",
     "align": "center"
   }
