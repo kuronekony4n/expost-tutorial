@@ -4,6 +4,9 @@
 Expost is a platform designed to help you easily create and manage lists of links, files, or text in a Directory styles. 
 By using JSON or YAML, you have the flexibility to customize your list exactly how you want it. You can choose from a wide variety of objects options, add images or other multimedia, link to external resources, and even embedding an entire websites.
 
+![Comparison](https://github.com/kuronekony4n/expost-tutorial/raw/main/comparison.png)
+See the result here: [Expost](https://expost.pages.dev/)
+
 ## Shortcut
 Blocks: [Metadata](#metadata-block), [Directory](#directory-block), [Title](#title-block), [Text](#text-block), [Link](#link-block), [Admonition](#admonition-block), [Button](#button-block), [Divider](#divider-block), [Space](#space-block), [Image](#image-block), [Audio](#audio-block), [Video](#video-block), [Iframe](#iframe-block)
 
