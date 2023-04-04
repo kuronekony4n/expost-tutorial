@@ -10,7 +10,7 @@ See the result here: [Expost](https://expost.pages.dev/)
 ## Shortcut
 Blocks: [Metadata](#metadata-block), [Directory](#directory-block), [Title](#title-block), [Text](#text-block), [Link](#link-block), [Admonition](#admonition-block), [Button](#button-block), [Divider](#divider-block), [Space](#space-block), [Image](#image-block), [Audio](#audio-block), [Video](#video-block), [Iframe](#iframe-block)
 
-Other: [Custom CSS](#custom-css), [Hosting](#hosting), [Redirection](#redirection), [Using Github](#using-github)
+Other: [Custom CSS](#custom-css), [Hosting](#hosting), [Redirection](#redirection), [Using Github](#using-github), [Contributing](#contributing)
 
 # Create New Library
 ## Pre-made Examples
@@ -596,3 +596,12 @@ https://rentry.co/redirect-example | https://expost.pages.dev/?u=redirect-exampl
 
 ### Using Github
 You can easily store all your JSON or YAML files, as well as any other kind of asset, in a Github repository. However, if you're using Github repository, it's important to keep in mind that simply updating your files won't automatically update the information on expost websites. To ensure that your updates are reflected, create a Github Pages based on your repository and use the links from there. This way, you can avoid having different URLs each time you make changes, and your updates will show up automatically.
+
+### Contributing
+You can contribute in many ways:
+- Making a Library
+- Making a Custom CSS
+- Translating this Guide to other language
+- Redesign Everything
+
+You can submit your contribution by Creating an Issue. 
