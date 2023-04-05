@@ -556,6 +556,8 @@ type | iframe | required | To declare that this is an iframe.
 info | `string` | optional | Information about the iframe.
 width | `string` | optional | The width of the iframe. Example: `50%`/`300px`/`auto`. Default: `100%` (recommended).
 height | `string` | optional | The height of the iframe. Example: `50%`/`120px`/`auto`. Default: `auto` (recommended).
+scrolling | `boolean` | optional | Enable scrolling. Default: `false`.
+allowfullscreen | `boolean` | optional | Allow Fullscreen. Default: `false`.
 data | `url` | required | URL for the iframe destination.
 custom_class | `string` | optional | Add custom CSS Classes. Tips: For iframe, use `ar16-9` for youtube player so the aspect ratio of the iframe is automaticaly 16:9, you can also use other aspect ratio template: `ar16-9` (landscape), `ar5-7` (potrait), `ar1-1` (square).
 custom_style | `string` | optional | Add custom CSS Styles.
