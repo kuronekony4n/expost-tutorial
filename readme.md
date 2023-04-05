@@ -572,12 +572,12 @@ I recommend you use this [browser extension](https://chrome.google.com/webstore/
 There is several way on how to host the JSON or YAML you just created.
 Currently we supported:
 
-Website | RAW Data | Result
-:------: | :------: | :------:
-direct url | https://website.com/library.yaml | https://expost.pages.dev/?url=https://website.com/library.yaml
-[snippet.host](https://snippet.host) | https://snippet.host/bsgxcc | https://expost.pages.dev/?s=bsgxcc
-[rentry.co](https://rentry.co) | https://rentry.co/custom_url999 | http://expost.pages.dev/?r=custom_url999
-[pst.moe](https://pst.moe) | https://pst.moe/paste/esmcue | http://expost.pages.dev/?p=esmcue
+Website | RAW Data | Result | Edit
+:------: | :------: | :------: | :------:
+direct url | https://website.com/library.yaml | https://expost.pages.dev/?url=https://website.com/library.yaml | Yes
+[snippet.host](https://snippet.host) | https://snippet.host/bsgxcc | https://expost.pages.dev/?s=bsgxcc | Yes
+[rentry.co](https://rentry.co) | https://rentry.co/custom_url999 | http://expost.pages.dev/?r=custom_url999 | Yes
+[pst.moe](https://pst.moe) | https://pst.moe/paste/esmcue | http://expost.pages.dev/?p=esmcue | No
 
 I suggest using Snippet or Rentry when creating or editing, as these websites update instantly unlike Github, which may take 1-2 minutes to reflect changes.
 
