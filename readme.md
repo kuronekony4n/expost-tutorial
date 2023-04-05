@@ -572,7 +572,7 @@ I recommend you use this [browser extension](https://chrome.google.com/webstore/
 There is several way on how to host the JSON or YAML you just created.
 Currently we supported:
 
-Website | RAW Data | Result | Edit
+Website | RAW Data | Result | Support Edit
 :------: | :------: | :------: | :------:
 direct url | https://website.com/library.yaml | https://expost.pages.dev/?url=https://website.com/library.yaml | Yes
 [snippet.host](https://snippet.host) | https://snippet.host/bsgxcc | https://expost.pages.dev/?s=bsgxcc | Yes
