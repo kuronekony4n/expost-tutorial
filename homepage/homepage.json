@@ -1,6 +1,6 @@
 [
     {
-        "img": "media/logo.png",
+        "img": "/media/logo.png",
         "type": "metadata",
         "css": "",
         "expand": false,
