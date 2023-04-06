@@ -10,6 +10,8 @@ See the result here: [Expost](https://expost.pages.dev/)
 ## Tutorial Video!
 [Basic Tutorial (with English Subs)](https://youtu.be/Prg6eiUJacw)
 
+[![OPEN](https://raw.githubusercontent.com/kuronekony4n/expost-tutorial/main/open-live-editor.png)](https://expost.pages.dev/create/creator)
+
 ## Shortcut
 Blocks: [Metadata](#metadata-block), [Directory](#directory-block), [Title](#title-block), [Text](#text-block), [Link](#link-block), [Admonition](#admonition-block), [Button](#button-block), [Divider](#divider-block), [Space](#space-block), [Image](#image-block), [Audio](#audio-block), [Video](#video-block), [Iframe](#iframe-block)
 
