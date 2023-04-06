@@ -1,4 +1,4 @@
-- img: media/logo.png
+- img: /media/logo.png
   type: metadata
   css: ''
   expand: false
@@ -89,7 +89,7 @@
     - name: Images 1
       type: image
       info: WOW
-      data: media/img1.png
+      data: /media/img1.png
 - type: divider
 - name: Add GIF Animation!
   info: ''
@@ -103,7 +103,7 @@
   info: Click me!
   url: >-
     https://www.overlyanimated.com/2016/08/06/the-subtle-beauty-of-steven-universes-title-cards/
-  data: media/animation.gif
+  data: /media/animation.gif
 - type: divider
 - name: Embed Music or Videos!
   info: ''
@@ -120,7 +120,7 @@
       type: audio
       audio_type: audio/mp3
       download: true
-      data: media/song1.mp3
+      data: /media/song1.mp3
 - name: Watch the Video
   type: dir
   expand: true
@@ -133,7 +133,7 @@
       type: video
       video_type: video/mp4
       download: true
-      data: media/horizontal.mp4
+      data: /media/horizontal.mp4
 - type: divider
 - name: Embed Anything!
   info: ''
