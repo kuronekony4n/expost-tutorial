@@ -33,7 +33,7 @@ You can add any blocks inside a directory. Even a bunch of directories inside a 
 {
   "img": "https://website.com/logo.png",
   "type": "metadata",
-  "css": "https://website.com/custom.css",
+  "css": "",
   "expand": false,
   "nsfw": false,
   "author": "John Doe",
@@ -47,7 +47,7 @@ You can add any blocks inside a directory. Even a bunch of directories inside a 
 ```yaml
 img: 'https://website.com/logo.png'
 type: metadata
-css: 'https://website.com/custom.css'
+css: ''
 expand: false
 nsfw: false
 author: John Doe
