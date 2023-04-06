@@ -7,6 +7,9 @@ By using JSON or YAML, you have the flexibility to customize your list exactly h
 ![Comparison](https://github.com/kuronekony4n/expost-tutorial/raw/main/comparison.png)
 See the result here: [Expost](https://expost.pages.dev/)
 
+## Tutorial Video!
+[Basic Tutorial dalam Bahasa Indonesia](https://youtu.be/Prg6eiUJacw)
+
 ## Shortcut
 Blocks: [Metadata](#metadata-block), [Directory](#directory-block), [Title](#title-block), [Text](#text-block), [Link](#link-block), [Admonition](#admonition-block), [Button](#button-block), [Divider](#divider-block), [Space](#space-block), [Image](#image-block), [Audio](#audio-block), [Video](#video-block), [Iframe](#iframe-block)
 
