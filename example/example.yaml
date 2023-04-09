@@ -1,0 +1,35 @@
+- type: metadata
+  css: editor
+  expand: false
+  nsfw: false
+  author: John Doe
+  author_link: 'https://website.com'
+  title: Welcome to the Library
+  subtitle: Hope you have a wonderful day!
+  info: This library is containing a lot of useful things!
+- name: Welcome to the Editor!
+  type: title
+  align: center
+- name: Text name
+  type: text
+  info: text info
+  font_size: medium
+  align: center
+  data: >-
+    You can continue creating your awesome library! Use the RUN button to
+    refresh the preview.
+- name: Open JSON Example
+  type: link
+  info: ''
+  icon: code
+  data: >-
+    https://github.com/kuronekony4n/expost-tutorial/blob/main/homepage/homepage.json
+  custom_class: ''
+  custom_style: ''
+  hidden: false
+- name: Open YAML Example
+  type: link
+  info: ''
+  icon: code
+  data: >-
+    https://github.com/kuronekony4n/expost-tutorial/blob/main/homepage/homepage.yaml
