@@ -9,6 +9,7 @@ See the result here: [Expost](https://expost.pages.dev/)
 
 ## Tutorial Video!
 [Basic Tutorial (with English Subs)](https://youtu.be/Prg6eiUJacw)
+
 [Talking about Live Editor (with English Subs)](https://youtu.be/Lh-EArPmzdQ)
 
 [![OPEN](https://raw.githubusercontent.com/kuronekony4n/expost-tutorial/main/open-live-editor.png)](https://expost.pages.dev/create/creator)
