@@ -2,6 +2,8 @@
 ## Tutorial Video!
 [Basic Tutorial (with English Subs)](https://youtu.be/Prg6eiUJacw)
 
+[Talking about Live Editor (with English Subs)](https://youtu.be/Lh-EArPmzdQ)
+
 ## Shortcut
 Blocks: [Metadata](#metadata-block), [Directory](#directory-block), [Title](#title-block), [Text](#text-block), [Link](#link-block), [Admonition](#admonition-block), [Button](#button-block), [Divider](#divider-block), [Space](#space-block), [Image](#image-block), [Audio](#audio-block), [Video](#video-block), [Iframe](#iframe-block)
 
