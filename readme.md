@@ -2,7 +2,7 @@
 
 # Expost? What is this?
 Expost is a platform designed to help you easily create and manage lists of links, files, or text in a Directory styles. 
-By using JSON or YAML, you have the flexibility to customize your list exactly how you want it. You can choose from a wide variety of objects options, add images or other multimedia, link to external resources, and even embedding an entire websites.
+By using JSON or YAML, you have the flexibility to customize your page exactly how you want it. You can choose from a wide variety of objects options, add images or other multimedia, link to external resources, and even embedding an entire websites.
 
 ![Comparison](https://github.com/kuronekony4n/expost-tutorial/raw/main/comparison.png)
 See the result here: [Expost](https://expost.pages.dev/)
@@ -10,7 +10,7 @@ See the result here: [Expost](https://expost.pages.dev/)
 ## Tutorial Video!
 [Basic Tutorial (with English Subs)](https://youtu.be/Prg6eiUJacw)
 
-[Talking about Live Editor (with English Subs)](https://youtu.be/Lh-EArPmzdQ)
+[Talking about Live Editor](https://youtu.be/Lh-EArPmzdQ)
 
 [![OPEN](https://raw.githubusercontent.com/kuronekony4n/expost-tutorial/main/open-live-editor.png)](https://expost.pages.dev/create/creator)
 
